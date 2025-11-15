@@ -1,7 +1,10 @@
 package db
 import (
-	"database/sql"
-	"log"
+    "database/sql"
+    "log"
+    "strings"
+
+    "github.com/AngelUNC/GhostWA/core"
 )
 // caches
 var contactCache = make(map[int64]ContactInfo)
